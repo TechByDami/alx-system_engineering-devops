@@ -1,5 +1,7 @@
 ## 0x01. Shell, permissions
 
+![permussion ](https://user-images.githubusercontent.com/110563322/188001806-1060b5aa-30ac-4c83-b06c-27485abc3b39.jpg)
+
 [0-iam_betty](./0-iam_betty)  - Create a script that switch the current user to the user betty. 
 You should use exactly 8 characters for your command (+1 character for the new line). 
 You can assume that the user betty will exist when we will run your script
@@ -18,6 +20,8 @@ The file hello will be in the working directory
 [6-multiple_permissions](./6-multiple_permissions) - Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello. 
 The file hello will be in the working directory.
 
+![permission](https://user-images.githubusercontent.com/110563322/188001858-e47b0197-4b1a-4f8d-924e-3350da08d874.png)
+
 [7-everybody](./7-everybody) - Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello. 
 The file hello will be in the working directory,  You are not allowed to use commas for this script
 
@@ -31,6 +35,9 @@ The file hello will be in the working directory You are not allowed to use comma
 -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 The file hello will be in the working directory
 You are not allowed to use commas for this script
+
+
+![number permission](https://user-images.githubusercontent.com/110563322/188002135-aa5f3bd3-2e33-4f95-bfa9-e2726451ee43.png)
 
 [10-mirror_permissions](./10-mirror_permissions) - Write a script that sets the mode of the file hello the same as olleh’s mode.
 The file hello will be in the working directory
